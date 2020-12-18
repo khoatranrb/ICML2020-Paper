@@ -17,7 +17,7 @@ def get_link(info):
         return til.split('][')[1].split('"')[1]
 
 f = open('README.md', 'w+')
-f.write('Til')
+f.write('This repo contains ICML2020 papers. It is cloned from [this source](http://proceedings.mlr.press/v119/).')
 f.write('\n')
 f.write('|Title|Aut|Paper|Sup|')
 f.write('\n')
